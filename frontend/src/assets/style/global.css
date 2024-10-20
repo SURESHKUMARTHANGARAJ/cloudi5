@@ -1,0 +1,1314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --primary: #023020;
+    --pink: #D5497C;
+    --orange: #D7AC14;
+    --bg-grey: #f9f9f9;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    padding-top: 3px;
+}
+a{
+    z-index: 10;
+    text-decoration: none;
+}
+/* ************************** Hero *********************** */
+.logo {
+    position: absolute;
+    top: 45px;
+    left: 55px;
+    width: 186px;
+    height: 108px;
+    z-index: 9;
+}
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/hero-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    z-index: 9;
+    font-family: 'Mulish', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65px;
+    text-align: center;
+    color: #ffffff;
+}
+.featur{
+    z-index: 9;
+}
+.feature-text {
+    z-index: 9 !important;
+    margin: 0 !important;
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+}
+
+.button {
+    z-index: 9;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    width: 219.43px;
+    height: 64px;
+    text-align: center;
+    border-radius: 13.71px;
+    font-family: 'Mulish';
+    font-size: 18.29px;
+    font-weight: 700;
+    line-height: 22.95px;
+}
+
+.yellow {
+    background-color: var(--orange);
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: #023020;
+}
+
+/* ************************** Hero *********************** */
+/* ************************** Approach ******************* */
+
+.approach {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+.approach-content {
+    font-family: 'Mulish';
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+.approach-header {
+    font-family: 'Mulish';
+    color: #181423;
+    width: 859px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.approach-header span {
+    color: #006743;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+}
+
+/* ************************** Approach ******************* */
+/* ************************** Service ******************** */
+
+.service {
+    position: relative;
+    padding: 0px 40px;
+}
+
+.service-header {
+    margin-top: 40px;
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: #181423;
+}
+
+.service-sub {
+    color: #006743;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.18px;
+    text-align: center;
+}
+
+.service-box {
+    display: flex;
+    width: 272px !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: #D8E1DE;
+    border: 1px solid #D8E1DE;
+    box-shadow: 0px 0px 40px 0px #93939326;
+}
+
+.service-icon {
+    height: 34px;
+    width: 34px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    color: #006743;
+}
+
+.service-text {
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+}
+
+/* ************************** Service ******************** */
+/* ************************** Needs ******************** */
+
+.needs {
+    position: relative;
+    background-color: #FFF1F6;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.needs .need-header {
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: left;
+}
+
+.need-header span {
+    color: #006743;
+}
+
+.need-left {
+    padding-top: 70px;
+}
+
+.need-cont p {
+    font-family: 'Mulish';
+    margin-bottom: 0 !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #181423;
+}
+
+.need-cont .need-icon {
+    font-size: 24px;
+    color: #006743;
+}
+
+.need-right img {
+    width: 283px;
+    height: 486px;
+}
+
+/* ************************** Needs ******************** */
+/* ************************** Hover Box ******************** */
+
+.hover-box {
+    z-index: 9;
+    width: 80%;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 32px;
+    background-color: #023020;
+    box-shadow: 0px 0px 30px 0px #D9D9D933 inset;
+
+}
+
+.hover-head {
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.hover-body {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #BCE4D7;
+}
+
+/* ************************** Hover Box ******************** */
+/* *************************** Steps *********************** */
+
+.lead {
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    color: #797979;
+}
+
+.top-lead {
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.18px;
+    color: #181423;
+}
+
+.step-box {
+    font-family: 'Mulish';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    background-color: #006743;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 6px 0px #00000040;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.step-box:hover {
+    transform: scale(1.1);
+}
+
+.step-cont {
+    margin-top: 300px;
+    padding-bottom: 100px;
+}
+
+.step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.dashed-line {
+    width: 80px;
+    height: 2px;
+    background-color: transparent;
+    border-top: 2px dashed rgba(5, 51, 5, 0.487);
+    position: absolute;
+    top: 30px;
+    left: 80%;
+}
+
+.cont p {
+    margin-top: 10px;
+    font-size: 13px;
+    border: 1px dashed rgb(5, 51, 5);
+    border-radius: 20px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.step-box:hover~p {
+    background-color: #006743;
+    border: 1px solid rgb(5, 51, 5);
+    color: white;
+}
+
+/* *************************** Steps *********************** */
+/* ******************* Register *************************** */
+
+.register {
+    background-color: #D8E1DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register form {
+    width: 800px;
+}
+
+form label {
+    font-family: 'Mulish';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.83px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+label span {
+    color: red;
+}
+
+form input, form select, form textarea,#basic-addon1 {
+    outline: none !important;
+    border: none !important;
+    padding: 12px !important;
+    border-radius: 12px !important;
+    background-color: white !important;
+}
+#mobile{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+#basic-addon1{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    position: relative;
+}
+#basic-addon1::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60%;
+    width: 2px;
+    background-color: #A6A6A6;
+    border-radius: 1px;
+}
+#mobile:focus {
+    outline: none !important; 
+    box-shadow: none !important;
+    border-color: #ced4da !important; 
+  }
+form textarea {
+    padding: 15px;
+    min-height: 200px;
+}
+
+input::placeholder, textarea::placeholder, option:nth-child(1),.first-option{
+    font-family: 'Mulish' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.57px !important;
+    color: #A6A6A6 !important;
+}
+
+#basic-addon1{
+    background-color: white;
+    border-right: none;
+}
+
+.form-title {
+    font-family: 'Mulish';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.16px;
+    text-align: left;
+    color: #181423;
+}
+
+.terms {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.57px;
+    text-align: center;
+    color: #797979;
+}
+
+.terms span {
+    color: #023020;
+}
+
+.submit {
+    background-color: #A6A6A6;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.submit:hover {
+    background-color: var(--orange);
+}
+
+/* ******************* Register *****************************/
+/************************ FAQ *******************************/
+
+.faq-title {
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    padding: 10px;
+    color: #181423;
+}
+
+.faq-sub {
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.59px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.accordion {
+    width: 80%;
+}
+
+.item {
+    background-color: #F9F9F9;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+
+.faq-head {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.faq-head p, .faq-head span {
+    font-family: 'Mulish';
+    font-size: 20px;
+    color: #023020;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.faq-content p {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+
+.faq-content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+/************************FAQ********************** */
+/* ******************** Footer *************** */
+
+footer {
+    background: #012216;
+    color: white;
+    width: 100%;
+}
+
+.foot-head {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.foot-body {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer .faq {
+    flex-grow: 1;
+}
+
+.footer-container {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.stripe {
+    height: 2px;
+    width: 80%;
+    border-top: 1px solid white;
+    margin: auto;
+}
+
+.cloudi5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.cloudi5-left img {
+    padding-top: 5px;
+    width: 115px;
+    height: 66.77px;
+}
+
+.cloudi5-left p, .cloudi5-right p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.cloudi5-right p {
+    width: 300px;
+}
+
+.icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+    font-size: 20px;
+}
+
+.icons .s-icons {
+    color: white;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: #06885B;
+    color: white;
+}
+
+/* ******************** Footer *************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+/* ************************** Hero *********************** */
+.logo {
+    top: 30px;
+    left: 30px;
+    width: 140px;
+    height: 80px;
+}
+.hero-content {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.feature-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.button {
+    width: 180px;
+    height: 55px;
+}
+
+/* ************************** Hero *********************** */
+/* ************************** Approach ******************* */
+
+.approach {
+    padding: 50px;
+}
+.approach-content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+.approach-header {
+    width: 100%;
+    line-height: 40px;
+    font-size: 27px;
+    font-weight: 700;
+}
+.approach-header span {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+/* ************************** Approach ******************* */
+/* ************************** Service ******************** */
+
+.service-header {
+    font-size: 30px;
+    font-weight: 700;
+}
+.service-sub {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* ************************** Service ******************** */
+/* ************************** Needs ******************** */
+
+.needs .need-header {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.need-left {
+    padding-top: 10px;
+}
+.need-cont p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.need-cont .need-icon {
+    font-size: 20px;
+}
+.need-right{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+.need-right img {
+    width: 250px !important;
+    height: 450px !important;
+}
+
+/* ************************** Needs ******************** */
+/* ************************** Hover Box ******************** */
+
+.hover-box {
+    width: 80%;
+    bottom: -250px;
+}
+.hover-head {
+    font-size: 27px;
+    font-weight: 700;
+}
+.hover-body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* ************************** Hover Box ******************** */
+/* *************************** Step Box ******************** */
+
+.lead {
+    font-size: 16px;
+    line-height: 22px;
+}
+.top-lead {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.cont{
+    flex-direction: column;
+}
+.step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    position: relative;
+}
+.dashed-line {
+    width: 2px;
+    height: 40px;
+    border-left: 1px dashed rgb(5, 51, 5);
+    border-top: none;
+    top: 95%;
+    left: 50%;
+}
+.step-container:not(:last-child) {
+    margin-bottom: 40px;
+}
+.step-cont {
+    margin-top: 270px;
+}
+
+/* *************************** Step Box ******************** */
+/* ******************* Register *************************** */
+
+.register {
+    padding: 50px;
+}
+.register form {
+    width: 90%;
+}
+.form-title {
+    font-size: 27px;
+}
+
+/* ******************* Register *****************************/
+/************************ FAQ *******************************/
+
+.faq-title {
+    font-size: 32px;
+}
+.faq-sub {
+    font-size: 16px;
+}
+.accordion {
+    width: 90%;
+}
+.faq-head p, .faq-head span {
+    font-size: 18px;
+    line-height: 22px;
+}
+.faq-content p {
+    font-size: 16px;
+}
+
+/************************FAQ********************** */
+/* ******************** Footer *************** */
+
+.foot-head {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+}
+.foot-body {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+footer .faq {
+    flex-grow: 0;
+}
+.stripe {
+    width: 90%;
+}
+.footer-container {
+    padding: 10px 50px;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.cloudi5{
+    padding: 10px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloudi5-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.cloudi5-left p, .cloudi5-right p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.icons {
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+/* ******************** Footer *************** */
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+/* ************************** Hero *********************** */
+.logo {
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 60px;
+}
+.hero-content {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.feature-text {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.button {
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+}
+
+/* ************************** Hero *********************** */
+/* ************************** Approach ******************* */
+
+.approach {
+    padding: 30px;
+}
+.approach-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+.approach-header {
+    width: 100%;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.approach-header span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* ************************** Approach ******************* */
+/* ************************** Service ******************** */
+
+.service{
+    padding: 0px 10px;
+}
+.service-top{
+    gap: 20px !important;
+}
+.service-header {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.service-sub {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.service-box{
+    min-width:90% !important;
+}
+
+/* ************************** Service ******************** */
+/* ************************** Needs ******************** */
+
+.needs .need-header {
+    padding: 0px !important;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.need-left {
+    padding: 0px !important;
+}
+.need-cont p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.need-cont .need-icon {
+    font-size: 15px;
+}
+.need-right{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+.need-right img {
+    width: 200px !important;
+    height: 350px !important;
+}
+
+/* ************************** Needs ******************** */
+/* ************************** Hover Box ******************** */
+
+.hover-box {
+    padding: 0px !important;
+    width: 90%;
+    bottom: -330px;
+}
+.hover-head {
+    padding: 0px !important;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hover-body {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* ************************** Hover Box ******************** */
+/* *************************** Step Box ******************** */
+
+.lead {
+    font-size: 14px !important;
+    line-height: 18px;
+}
+.top-lead {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.step-cont {
+    margin-top: 320px;
+}
+
+/* *************************** Step Box ******************** */
+/* ******************* Register *************************** */
+
+.register {
+    padding: 30px;
+}
+.register form {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+input,select,textarea{
+    width: 100%;
+}
+.form-title {
+    font-size: 25px;
+}
+
+/* ******************* Register *****************************/
+/************************ FAQ *******************************/
+
+.faq-title {
+    font-size: 25px;
+    line-height: 30px;
+}
+.faq-sub {
+    font-size: 14px;
+    line-height: 17px;
+}
+.accordion {
+    width: 95%;
+}
+.faq-head p, .faq-head span {
+    font-size: 16px;
+    line-height: 20px;
+}
+.faq-content p {
+    font-size: 15px;
+}
+
+/************************FAQ********************** */
+/* ******************** Footer *************** */
+
+.foot-head {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+}
+.foot-body {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+footer .faq p{
+    text-align: start !important;
+}
+.footer-container {
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.cloudi5{
+    padding: 10px 50px;
+}
+.cloudi5-left{
+    width: 100%;
+}
+.cloudi5-left p, .cloudi5-right p {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+.icons {
+    justify-content: center;
+}
+.copyright {
+    font-size: 14px;
+}
+/* ******************** Footer *************** */
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+/* ************************** Approach ******************* */
+.approach {
+    padding: 20px;
+}
+.approach-content {
+    font-size: 14px;
+    line-height: 22px;
+}
+.approach-header {
+    line-height: 25px;
+    font-size: 20px;
+}
+.approach-header span {
+    font-size: 20px;
+    line-height: 25px;
+}
+/* ************************** Approach ******************* */
+/* ******************* Register *************************** */
+.register {
+    padding: 20px;
+}
+.register form {
+    width: 100%;
+}
+form textarea{
+    min-height: 100px;
+}
+/* ******************* Register *****************************/
+}
+
+
+@media screen and (max-width: 320px) {
+
+/* ************************** Approach ******************* */
+.approach-header {
+    margin-bottom:10px !important;
+}
+.approach-content{
+    padding-top: 20px ;
+    text-align: justify;
+}
+/* ************************** Approach ******************* */
+/* ************************** Service ******************** */
+    
+    .service{
+        padding: 10px !important;
+    }
+    .service-top{
+        gap:10px;
+    }
+    .service-header {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .service-sub {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .service-box{
+        min-width:90% !important;
+    }
+    
+    /* ************************** Service ******************** */
+    /* ************************** Needs ******************** */
+    
+    .needs .need-header {
+        padding: 0px !important;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .need-left {
+        padding: 0px !important;
+    }
+    .need-cont p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .need-cont .need-icon {
+        font-size: 15px;
+    }
+    .need-right{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .need-right img {
+        width: 200px !important;
+        height: 350px !important;
+    }
+    
+    /* ************************** Needs ******************** */
+    /* ************************** Hover Box ******************** */
+    
+    .hover-box {
+        padding: 0px !important;
+        width: 90%;
+        bottom: -330px;
+    }
+    .hover-head {
+        padding: 0px !important;
+        line-height: 25px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .hover-body {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    /* ************************** Hover Box ******************** */
+    /* *************************** Step Box ******************** */
+    
+    .lead {
+        font-size: 14px !important;
+        line-height: 18px;
+    }
+    .top-lead {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .step-cont {
+        margin-top: 320px;
+    }
+    
+    /* *************************** Step Box ******************** */
+    /* ******************* Register *************************** */
+.register {
+    padding: 20px;
+}
+.register form {
+    width: 100%;
+}
+form textarea{
+    min-height: 100px;
+}
+/* ******************* Register *****************************/
+    /************************ FAQ *******************************/
+    
+    .faq-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .faq-sub {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .accordion {
+        width: 95%;
+    }
+    .faq-head p, .faq-head span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .faq-content p {
+        font-size: 15px;
+    }
+    
+    /************************FAQ********************** */
+    /* ******************** Footer *************** */
+    
+    .foot-head {
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+    .foot-body {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    footer .faq p{
+        text-align: start !important;
+    }
+    .footer-container {
+        justify-content: start;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cloudi5{
+        padding: 10px 50px;
+    }
+    .cloudi5-left{
+        width: 100%;
+    }
+    .cloudi5-left p, .cloudi5-right p {
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    /* ******************** Footer *************** */
+    }
