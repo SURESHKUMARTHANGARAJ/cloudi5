@@ -5,7 +5,31 @@ import { FaChevronUp } from "react-icons/fa";
 const Faq = () => {
 
     const [selected,setSelected] = useState(null);
-    const [data,setData] = useState([]);
+    const [data,setData] = useState([{
+      _id:1,
+      question:"Question1 ?",
+      answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?"
+    },
+    {
+      _id:2,
+      question:"Question2 ?",
+      answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?"
+    },
+    {
+      _id:3,
+      question:"Question3 ?",
+      answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?"
+    },
+    {
+      _id:4,
+      question:"Question4 ?",
+      answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?"
+    },
+    {
+      _id:5,
+      question:"Question5 ?",
+      answer:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi praesentium non consequuntur, illo odit?"
+    }]);
 
     const toggle = (i) => {
         if(selected === i){
